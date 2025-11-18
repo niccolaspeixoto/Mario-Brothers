@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 10px;
+}
+
+header img{
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+header a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+header a:hover{
+    color: red;
+}
+
+header a:active{
+    transform: scale(0.95);
+    color: rgb(240, 105, 105);
+}
+
+
+.logo{
+    width: 300px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    height: 70vh;
+    margin-top: 0;
+}
+
+.main-content{
+    width: 50%;
+    color: white;
+}
+
+button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.2s ease;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+
+button:active{
+    transform: scale(0.95);
+}
+
+.MarioandLuigi{
+    width: 400px;
+}
+
+.video{
+    position: fixed;
+    z-index: -2;
+    top: 0;
+}
+
+video{
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    top: 0;
+}
+    
+
+.mask{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.wrap-footer{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.whatsapp{
+    display:flex;
+    background-color: rgb(41, 179, 41);
+    color: white;
+    width: 400px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.5s ease;
+    margin-bottom: 20px;
+}
+
+.whatsapp img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.whatsapp:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: rgba(48, 253, 58, 0.596) 0px 13px 27px -5px, rgb(4, 78, 35) 0px 8px 16px -8px;
+}
+
+.whatsapp:active{
+    background-color: rgb(124, 228, 124);
+    transform: scale(0.9);
+}
+
+.instagram{
+    display:flex;
+    background-color: rgb(174, 41, 179);
+    color: white;
+    width: 400px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.5s ease;
+    margin-bottom: 10px;
+}
+
+.instagram img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.instagram:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    box-shadow: rgba(162, 0, 255, 0.596) 0px 13px 27px -5px, rgb(150, 4, 130) 0px 8px 16px -8px;
+}
+
+
+.formulario-fale-conosco{
+    width: 300px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    left: -290px;
+    padding: 30px;
+    border-radius: 10px;
+    gap: 10px;
+    transition: left 0.5s ease;
+    
+}
+
+/*
+inicio
+    top: 30%;
+    left: -250px;
+
+final
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+*/
+
+
+input{
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    transition: 0.5s ease;
+}
+
+input:focus{
+    outline-color: rgb(1, 255, 1);
+}
+
+textarea{
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+
+textarea:focus{
+    outline-color: rgb(1, 255, 1);
+}
+
+
+
+.form-mask{
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(143, 0, 0, 1) 50%, rgba(255, 255, 255, 0) 100%); 
+    transition: opacity 0.5s ease;
+}
+
+
+
