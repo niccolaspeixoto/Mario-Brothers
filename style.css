@@ -264,13 +264,18 @@ footer h1{
 /*
 inicio
     top: 30%;
-    left: -250px;
+    left: -250px;                   
 
 final
     top: 30%;
     left: 50%;
     transform: translateX(-50%);
 */
+
+.formulario-fale-conosco h1{
+    text-align: center;
+    font-weight: 900
+}
 
 
 input{
