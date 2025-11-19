@@ -122,6 +122,28 @@ button:active{
 
 }
 
+
+.section-map{
+    padding: 40px ;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.section-map h1{
+    color: rgb(7, 7, 7);
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.section-map iframe{
+    width: 1000px;
+    border-radius: 10px;
+    box-shadow: rgb(0, 0, 0) 0px 13px 27px -5px, rgb(3, 3, 3) 0px 8px 16px -8px;
+
+}
+
 .video{
     position: fixed;
     z-index: -2;
