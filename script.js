@@ -14,6 +14,6 @@ function hideForm (){
     formMask.style.visibility = "hidden"
 }
 
-
+form.addEventListener("click", showForm)
 contactButton.addEventListener("click", showForm)
 formMask.addEventListener("click", hideForm)
