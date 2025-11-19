@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -185,7 +186,6 @@ footer h1{
     display: flex;
     flex-direction: column;
     margin: 50px auto;
-    
 }
 
 .whatsapp{
